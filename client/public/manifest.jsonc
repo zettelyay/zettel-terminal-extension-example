@@ -3,14 +3,14 @@
 
 {
   "$schema": "../node_modules/@zettelproject/terminal-extension-api/dist/manifest-json-schema.json",
-  "appId": "your-extension-id", // Identifier of your extension, must be unique within all your extensions.
-  "version": "0.0.0", // Very important. Update it so that the client is updated to the latest extension release.
-  "name": "Your extension name", // Display name of your extension in the Zettel app store.
-  "description": "Your extension description", // Description of your extension in the Zettel app store.
+  "appId": "example-extension", // Identifier of your extension, must be unique within all your extensions.
+  "version": "0.0.1", // Very important. Update it so that the client is updated to the latest extension release.
+  "name": "Example Extension", // Display name of your extension in the Zettel app store.
+  "description": "Just for demonstration!", // Description of your extension in the Zettel app store.
   "avatar": {
     "file": "extension.png" // Icon of your extension in the Zettel app store. The file is to be placed in the public folder.
     // "dataUrl": ""  // Or, put the icon's image data URL instead.
   },
-  "documentationMarkdownFile": "documents.md", // Optional. The file is to be placed in the public folder.
+  // "documentationMarkdownFile": "documents.md", // Optional. The file is to be placed in the public folder.
   "scopes": ["PAGE"] // Don't touch!
 }
